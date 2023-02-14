@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float rotateSpeed = 10f;
-    private bool isWalking;
+    private bool isWalking = false;
 
     private void Update()
     {
